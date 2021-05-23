@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./images/univ.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: 'Newsreader', sans-serif;
+    margin : 0;
+    color:white;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-weight: normal;
+    font-size : 4rem;
+    margin-top: 5rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-weight: bold;
+    font-size:1.5rem;
+}
+
+.big-text {
+    font-size : 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
