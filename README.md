@@ -11,7 +11,7 @@
 
 ## 2. Quiz App
 
-- 정답을 맞추고 점수를 알려주는 Quzi App
+- 정답을 맞추고 점수를 알려주는 Quiz App
 
 ![quziAppResult](https://user-images.githubusercontent.com/48887925/119331830-c7669c00-bcc2-11eb-9952-862d4c7de1d1.PNG)
 
