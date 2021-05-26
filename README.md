@@ -19,7 +19,16 @@
 
 ## 3. Recipe App
 
-- learned how to use api fetch, async & await, localStorage 
+- Learned how to use api fetch, async & await, localStorage 
 - Feature : Recommend random recipe, Search recipe, Show recipe info, Add or remove to/from Favorite
 
 ![recipeAppResult](https://user-images.githubusercontent.com/48887925/119504135-a7a8a400-bda6-11eb-9303-96ff292601e0.PNG)
+
+--- 
+
+
+## 4. Notes App
+
+- Basic CRUD function using JavaScript, using localStorage again. MarkDown
+
+![notesAppResult](https://user-images.githubusercontent.com/48887925/119669720-3c78d380-be73-11eb-9c59-3b32d7b1aea9.PNG)
