@@ -32,3 +32,11 @@
 - Basic CRUD function using JavaScript, using localStorage again. MarkDown
 
 ![notesAppResult](https://user-images.githubusercontent.com/48887925/119669720-3c78d380-be73-11eb-9c59-3b32d7b1aea9.PNG)
+
+---
+
+## 5. Todo App
+
+- Add todo and check completed or not
+
+![todoAppResult](https://user-images.githubusercontent.com/48887925/119815070-1e1fe000-bf26-11eb-85cf-ea49ccded210.PNG)
