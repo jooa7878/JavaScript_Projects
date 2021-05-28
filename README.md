@@ -40,3 +40,11 @@
 - Add todo and check completed or not
 
 ![todoAppResult](https://user-images.githubusercontent.com/48887925/119815070-1e1fe000-bf26-11eb-85cf-ea49ccded210.PNG)
+
+--- 
+
+## 6. Movie App
+
+- Using public movie API, implemented search function
+
+![movieAppResult](https://user-images.githubusercontent.com/48887925/119946359-84ae0800-bfd1-11eb-97e5-7648bb4bb056.PNG)
