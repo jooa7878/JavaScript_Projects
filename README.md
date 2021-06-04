@@ -48,3 +48,12 @@
 - Using public movie API, implemented search function
 
 ![movieAppResult](https://user-images.githubusercontent.com/48887925/119946359-84ae0800-bfd1-11eb-97e5-7648bb4bb056.PNG)
+
+---
+
+## 7. Github Profiles App
+
+- Search Your Github Profile!
+
+![githubProfilesAppResult](https://user-images.githubusercontent.com/48887925/120771571-4d53d400-c55a-11eb-82c1-ae6d6b88e62b.PNG)
+
