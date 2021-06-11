@@ -58,9 +58,17 @@
 ![githubProfilesAppResult](https://user-images.githubusercontent.com/48887925/120771571-4d53d400-c55a-11eb-82c1-ae6d6b88e62b.PNG)
 
 ---
+
 ## 8. Drawing App
 
 - Drawing + change size & color, Using Canvas
 
 ![drawingAppResult](https://user-images.githubusercontent.com/48887925/121325261-6b4f7900-c94c-11eb-9b14-64dcb8dea379.PNG)
 
+---
+
+## 9. Password Generator
+
+- Get random Password + Copy it to clipboard
+
+![passwordGeneratorResult](https://user-images.githubusercontent.com/48887925/121663571-86072680-cae1-11eb-89bd-61b0fed04659.PNG)
