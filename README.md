@@ -72,3 +72,11 @@
 - Get random Password + Copy it to clipboard
 
 ![passwordGeneratorResult](https://user-images.githubusercontent.com/48887925/121663571-86072680-cae1-11eb-89bd-61b0fed04659.PNG)
+
+---
+
+## 10. Weather App
+
+- Search the weather where you live
+
+![weatherAppResult](https://user-images.githubusercontent.com/48887925/122196840-8d0fa980-ced2-11eb-8487-3020a6f00166.PNG)
