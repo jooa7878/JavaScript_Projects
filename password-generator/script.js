@@ -46,7 +46,7 @@ function generatePassword() {
     if(upper.checked){
         result += (getUppercase());
     }
-    if(lower.checked){
+     if(lower.checked){
         result += (getLowercase());
     }
     if(number.checked){
