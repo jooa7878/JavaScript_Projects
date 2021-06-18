@@ -86,3 +86,10 @@
 ## 11. Client Side Form
 
 ![clientSideFormResult](https://user-images.githubusercontent.com/48887925/122379887-40939f00-cfa2-11eb-975a-f80f5fb908e0.PNG)
+
+---
+
+## 12. Light Dark Theme
+
+![lightDarkThemeResult](https://user-images.githubusercontent.com/48887925/122530884-ee15b980-d059-11eb-8d1c-42cda5bf63bd.PNG)
+
