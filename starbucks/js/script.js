@@ -5,6 +5,10 @@ const badgeEl = document.querySelector('header .badges');
 const fadeEls = document.querySelectorAll('.visual .fade-in');
 const promotionEl = document.querySelector('.promotion');
 const promotionToggleBtn = document.querySelector('.toggle-promotion');
+const spyEls = document.querySelectorAll('section.scroll-spy');
+const thisYear = document.querySelector('.this-year');
+const toTopEl =document.querySelector('#to-top');
+
 let isHidePromotion = false;
 
 searchEl.addEventListener('click', () => {
@@ -22,7 +26,6 @@ searchInputEl.addEventListener('blur', () => {
 })
 
 window.addEventListener('scroll', _.throttle(() => {
-  console.log('scroll');
   if (window.scrollY > 500) {
     // hide badge
 
@@ -32,11 +35,19 @@ window.addEventListener('scroll', _.throttle(() => {
       display: 'none'
     })
 
+    gsap.to(toTopEl, 0.2, {
+      x : 0 
+    })
+
   } else {
     // display badge
     gsap.to(badgeEl, 0.6, {
       opacity: 1,
       display: 'block'
+    })
+
+    gsap.to(toTopEl, 0.2, {
+      x : 100
     })
   }
 }, 300));
@@ -79,6 +90,17 @@ new Swiper('.notice .promotion .swiper-container', {
   }
 });
 
+new Swiper('.awards .swiper-container', {
+  autoplay : true,
+  loop: true,
+  spaceBetween : 30,
+  slidesPerView : 5,
+  navigation : {
+    prevEl : '.awards .swiper-prev',
+    nextEl : '.awards .swiper-next'
+  }
+})
+
 promotionToggleBtn.addEventListener('click', ()=>{
   isHidePromotion = !isHidePromotion;
 
@@ -110,3 +132,21 @@ function floatingObject(selector, delay, size){
 floatingObject('.floating1', 1, 15);
 floatingObject('.floating2', 0.5, 15);
 floatingObject('.floating3', 1.5, 20);
+
+spyEls.forEach((spyEl) => {
+  new ScrollMagic
+    .Scene({
+      triggerElement : spyEl, // 보여짐 여부를 감시할 요소를 지정
+      triggerHook : 0.8, // 뷰포트 시작 0 끝 1 여기 걸리면 setClassToggle 실행하는 거임
+    }) // Scene = 특정 요소 감시 옵션 지정 메서드
+    .setClassToggle(spyEl, 'show')
+    .addTo(new ScrollMagic.Controller()); 
+});
+
+thisYear.textContent = new Date().getFullYear();
+
+toTopEl.addEventListener('click', ()=>{
+  gsap.to(window, .7 , {
+    scrollTo : 0
+  })
+});
